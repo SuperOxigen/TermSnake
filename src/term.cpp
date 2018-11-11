@@ -404,7 +404,7 @@ void Term::ClearTerm(void) {
     for (r = 0; r < GetHeight(); r++) {
         SetCursorRow(r);
         for (c = 0; c < GetWidth(); c++) {
-            Print(" ");
+            PutChar(' ');
         }
     }
 
